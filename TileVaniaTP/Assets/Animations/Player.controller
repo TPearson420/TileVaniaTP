@@ -19,7 +19,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0
+  m_ExitTime: 0.9
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -33,7 +33,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Running
-  m_Speed: 1.5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -9210031152518039645}
@@ -96,9 +96,9 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
+  m_ExitTime: 0.9
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -116,7 +116,7 @@ AnimatorStateMachine:
     m_Position: {x: 337.2787, y: 145.72816, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9155163324969580050}
-    m_Position: {x: 362.8509, y: 228.65189, z: 0}
+    m_Position: {x: 340, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7213819417688400033}
     m_Position: {x: 645.5383, y: 163.29942, z: 0}

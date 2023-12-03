@@ -16699,6 +16699,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2700814292920937251, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: m_GravityScale
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700814292920937251, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810086082926472283, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2810086082926472283, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -16801,6 +16813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e753f1e8af5d64e8f2671f4c2914c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runSpeed: 10
+  jumpSpeed: 25
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
