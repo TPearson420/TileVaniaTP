@@ -29089,21 +29089,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 193383078858592946, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: a7aff3c2e7996134b98fe05865c233b2, type: 2}
-    - target: {fileID: 2700814292920937251, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-      propertyPath: m_GravityScale
-      value: 8
+    - target: {fileID: 935443620253264236, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4725561
       objectReference: {fileID: 0}
-    - target: {fileID: 2700814292920937251, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
+    - target: {fileID: 935443620253264236, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: m_Size.y
+      value: 0.078884125
       objectReference: {fileID: 0}
-    - target: {fileID: 2810086082926472283, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
+    - target: {fileID: 935443620253264236, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.03057623
+      objectReference: {fileID: 0}
+    - target: {fileID: 935443620253264236, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.46055794
       objectReference: {fileID: 0}
     - target: {fileID: 2810086082926472283, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29149,71 +29149,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ginger (Player)
       objectReference: {fileID: 0}
-    - target: {fileID: 6072153433481902181, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6072153433481902181, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7773412365023010654}
-    - targetCorrespondingSourceObject: {fileID: 6072153433481902181, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7773412365023010655}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
---- !u!1 &7773412365023010653 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6072153433481902181, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
-  m_PrefabInstance: {fileID: 7773412365023010652}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7773412365023010654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7773412365023010653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 7fe05d54aa290fd40aa96dc98af7b5b2, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!114 &7773412365023010655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7773412365023010653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08e753f1e8af5d64e8f2671f4c2914c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runSpeed: 10
-  jumpSpeed: 25
-  climbSpeed: 5
 --- !u!95 &7773412365023010659 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1825859484683934360, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
@@ -29229,5 +29169,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 700197731}
-  - {fileID: 7773412365023010652}
   - {fileID: 1435956706}
+  - {fileID: 7773412365023010652}
