@@ -29300,7 +29300,7 @@ GameObject:
   - component: {fileID: 2141222923}
   m_Layer: 11
   m_Name: Goober (Enemy)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29513,6 +29513,83 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+--- !u!1001 &5111415235456388783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964895458017735832, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887364953653076556, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5887364953653076556, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199359527430717376, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
+      propertyPath: m_Name
+      value: Bullet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
 --- !u!1001 &7773412365023010652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29577,6 +29654,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5939817345952442838, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9199359527430717376, guid: fc14a1e9637ef5a4bb5c699d5a36520b, type: 3}
     - target: {fileID: 6072153433481902181, guid: 14fc946f054d8534fb8093117a98c4ab, type: 3}
       propertyPath: m_Name
       value: Ginger (Player)
@@ -29604,3 +29685,4 @@ SceneRoots:
   - {fileID: 1435956706}
   - {fileID: 7773412365023010652}
   - {fileID: 2141222922}
+  - {fileID: 5111415235456388783}
