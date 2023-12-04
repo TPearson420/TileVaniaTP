@@ -6334,7 +6334,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1133091549
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -602564467, guid: b6617d623e2b4954dbc6d52daef3fb4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6721,7 +6721,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1133091549
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -602564467, guid: b6617d623e2b4954dbc6d52daef3fb4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7007,6 +7007,63 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1272495212
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.14442
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.63321
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4901055572487722450, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644912173075852990, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
+      propertyPath: m_Name
+      value: Exit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3746cb2e56db0624b806ab108f3fcc5c, type: 3}
 --- !u!1 &1318000166
 GameObject:
   m_ObjectHideFlags: 0
@@ -7635,7 +7692,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1133091549
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -602564467, guid: b6617d623e2b4954dbc6d52daef3fb4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -29476,7 +29533,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1133091549
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -602564467, guid: b6617d623e2b4954dbc6d52daef3fb4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -30409,7 +30466,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1133091549
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -602564467, guid: b6617d623e2b4954dbc6d52daef3fb4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -30670,3 +30727,4 @@ SceneRoots:
   - {fileID: 1555232846}
   - {fileID: 660887401}
   - {fileID: 5111415235456388783}
+  - {fileID: 1272495212}
